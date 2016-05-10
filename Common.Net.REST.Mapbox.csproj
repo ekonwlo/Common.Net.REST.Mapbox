@@ -56,12 +56,12 @@
       <HintPath>..\packages\Common.Maps.0.9.0.1\lib\net35\Common.Maps.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Common.Net.REST, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Common.Net.REST.1.0.0.1\lib\net40\Common.Net.REST.dll</HintPath>
+    <Reference Include="Common.Net.REST, Version=1.0.0.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Net.REST.1.0.0.4\lib\net40\Common.Net.REST.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Common.Runtime.Serialization, Version=0.9.0.1, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Common.Runtime.Serialization.0.9.0.1\lib\net40\Common.Runtime.Serialization.dll</HintPath>
+    <Reference Include="Common.Runtime.Serialization, Version=0.9.0.2, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Runtime.Serialization.0.9.0.2\lib\net40\Common.Runtime.Serialization.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -118,8 +118,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy /Y "$(TargetDir)*.dll" "C:\Users\ekonwlo\Documents\Visual Studio 2010\Projects\Common.Servers\Libraries\*.dll"
-copy /Y "$(TargetDir)*.dll" "C:\Users\ekonwlo\Documents\Visual Studio 2010\Projects\ConsistencyCheck\Libraries\*.dll"</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
